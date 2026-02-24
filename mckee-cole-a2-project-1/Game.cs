@@ -18,7 +18,10 @@ namespace MohawkGame2D
         /// </summary>
         public void Setup()
         {
-
+           // Window Setup
+            Window.SetTitle("Placeholder");
+            Window.SetSize(800, 600);
+            Window.ClearBackground(Color.OffWhite);
         }
 
         /// <summary>
